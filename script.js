@@ -13,5 +13,5 @@ document.getElementById('ageForm').addEventListener('submit', function(event) {
     const ageInput = document.getElementById('ageInput').value;
     document.getElementById('result').classList.remove('hidden');
     document.getElementById('ageResult').textContent = ageInput;
-  }, 10000); // 10 seconds in milliseconds
+  }, 30000); // 10 seconds in milliseconds
 });
